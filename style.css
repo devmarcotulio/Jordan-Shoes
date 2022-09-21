@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    height: 120px;
+}
+
+header p {
+    background-color: #181818;
+    height: 60px;
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    background-color: #F9F9F9;
+    height: 60px;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-center {
+    background-image: url(images/Mask\ Group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 129px;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-card h1 {
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.left-card p {
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-down h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.section-down p {
+    font-family: 'Montserrat', sans-serif;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 200px 50px 200px;
+}
+
+li {
+    background-color: #EBE9EA;
+    padding: 76px 25px;
+}
+
+footer {
+    height: 60px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
