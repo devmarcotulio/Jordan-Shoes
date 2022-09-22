@@ -37,7 +37,7 @@ header h1 {
     background-image: url(images/Mask\ Group.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 129px;
+    padding: 200px;
 }
 
 .left-card {
@@ -46,20 +46,6 @@ header h1 {
     gap: 10px;
 }
 
-.left-card h1 {
-    color: #F9F9F9;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    padding-bottom: 10px;
-}
-
-.left-card p {
-    color: #F9F9F9;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-}
 
 .section-down {
     display: flex;
@@ -95,6 +81,11 @@ ul {
 li {
     background-color: #EBE9EA;
     padding: 76px 25px;
+}
+
+li:hover {
+    transform: scale(0.8);
+    transition: all 0.3s;
 }
 
 footer {
